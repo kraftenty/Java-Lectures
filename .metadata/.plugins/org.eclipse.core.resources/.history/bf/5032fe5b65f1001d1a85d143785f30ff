@@ -1,0 +1,22 @@
+import java.util.*;
+
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		List<Integer> li = new ArrayList<>();
+		
+		li.add(10);
+		li.add(20);
+		li.add(0,50);
+		li.set(2, 50);
+		System.out.println(li);
+		
+		
+		
+	}
+
+}

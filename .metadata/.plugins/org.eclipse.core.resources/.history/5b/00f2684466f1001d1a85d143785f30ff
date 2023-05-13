@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class ArrayList_test {
+
+	public static void main(String[] args) {
+
+		// ArrayList 선언. 아래는 모두 같은 동작을 한다.
+		// 
+		List<Integer> al = new ArrayList<>();
+
+	}
+
+}

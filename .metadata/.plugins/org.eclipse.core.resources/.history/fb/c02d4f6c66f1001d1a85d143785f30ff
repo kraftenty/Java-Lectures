@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class ArrayList_test {
+
+	public static void main(String[] args) {
+
+		// ArrayList 선언. 아래는 모두 같은 동작을 한다.
+		// ArrayList<Integer> al = new ArrayList<Integer>();
+		// ArrayList<Integer> al = new ArrayList<>();
+		// List<Integer> al = new ArrayList<>();
+		List<Integer> al = new ArrayList<>();
+		
+		
+		// add(요소) : 맨 끝에 요소를 추가
+		al.add(10);
+		al.add(20);
+		al.add(30);
+		System.out.println("add test : " + al);
+
+	}
+
+}
