@@ -1,0 +1,13 @@
+import java.util.StringJoiner;
+
+public class my2_string4 {
+
+	public static void main(String[] args) {
+		
+		StringJoiner sj = new StringJoiner("/");
+		sj.add("사과");
+		sj.add("복숭아");
+		sj.add("딸기");
+	}
+
+}

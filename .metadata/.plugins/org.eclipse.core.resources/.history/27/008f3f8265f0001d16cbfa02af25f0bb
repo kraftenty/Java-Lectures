@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class my2_date2 {
+
+	public static void main(String[] args) {
+		
+		Calendar cal = Calendar.getInstance();
+		Date now = new Date();
+		System.out.println("현재 로컬날짜 : "+ now);
+		cal.add(cal.DATE, 100);
+		System.out.println("100일 후" + cal.getTime());
+		cal.add(cal.DAY_OF_MONTH, 1);
+		System.out.println("1일 후" + cal.getTime());
+		cal.set(cal.DATE, 10);
+		System.out.println("셋팅 후" + cal.getTime());
+	}
+
+}

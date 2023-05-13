@@ -1,0 +1,46 @@
+
+abstract class banquet { // 추상클래스
+	
+	protected String res_irum;
+	protected int res_inwon;
+	
+	public void res_info(String irum, int res_inwon) {
+		this.res_irum = irum;
+		this.res_inwon = res_inwon;
+	}
+	
+	public abstract void tot_pay(int basic_cost, int use_cost); // 추상메소드
+}
+
+class birth_party extends banquet { // 추상클래스를 상속받은 하위클래스
+	
+	public void tot_pay(int basic_cost, int use_cost) {
+		int pay_calc = 0;
+		pay_calc = basic_cost*res_inwon + use_cost + 20000;
+		System.out.println("생일파티기본비용 " + pay_calc);
+	}
+}
+
+class work_shop extends banquet { // 추상클래스를 상속받은 하위클래스
+	
+	public void prn_1() {
+		System.out.println("워크숍입니다");
+	}
+
+	public void tot_pay(int basic_cost, int use_cost) {
+		System.out.println("추상메소드 구현");	
+	}
+}
+
+public class my2_abstract {
+
+	public static void main(String[] args) {
+		
+		//banquet b = new banquet(); 추상 클래스는 인스턴스화할수 없다
+		
+		birth_party Mybirth = new birth_party();
+		Mybirth.res_info("김길동", 8);
+		Mybirth.tot_pay(18000, 100000);
+	}
+
+}

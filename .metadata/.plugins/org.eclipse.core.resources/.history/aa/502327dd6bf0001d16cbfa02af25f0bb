@@ -1,0 +1,20 @@
+import java.text.SimpleDateFormat;
+import java.util.*;
+
+public class my2_date5 {
+
+	public static void main(String[] args) {
+		
+		try {
+			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-DD");
+			Date d = df.parse("2015-05-20");
+			System.out.println("당신의 입사일자 ===> "+ d);
+		}
+		
+		catch(java.text.ParseException ex){
+			ex.printStackTrace();
+		}
+
+	}
+
+}

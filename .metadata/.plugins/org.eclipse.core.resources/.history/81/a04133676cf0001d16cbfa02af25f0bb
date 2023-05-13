@@ -1,0 +1,23 @@
+import java.text.SimpleDateFormat;
+import java.util.*;
+
+public class my2_date5 {
+
+	public static void main(String[] args) {
+		
+		try {
+			System.out.println("당신의 입사일자를 입력하세요(yyyy-MM-dd)\n");
+			Scanner sc = new Scanner(System.in);
+			String a = sc.next();
+			SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+			Date d = df.parse(a);
+			System.out.println("당신의 입사일자 ===> "+ d);
+		}
+		
+		catch(java.text.ParseException ex){
+			ex.printStackTrace();
+		}
+
+	}
+
+}

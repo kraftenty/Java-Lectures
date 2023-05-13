@@ -1,0 +1,7 @@
+
+public class workshop extends my2_banquet{
+	public workshop() {
+		System.out.println("워크샵 세미나 예약");
+	}
+	
+}

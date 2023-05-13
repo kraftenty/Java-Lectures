@@ -1,0 +1,21 @@
+import java.time.LocalDate;
+import java.time.Period;
+
+public class my2_date6 {
+
+	public static void main(String[] args) {
+		
+		LocalDate mydate = LocalDate.now();
+		LocalDate yourdate = LocalDate.of(2023, 8, 5);
+		
+		//Period until메소드를 이용한 날짜 차이 계산
+		//Period p = mydate.until(yourdate);
+		
+		//Period between메소드를 이용한 날짜 차이 계산
+		Period p = Period.between(mydate, yourdate);
+		System.out.println("년도차이 : " + p.getYears() + "년");
+		System.out.println("개월차이 : " + p.getMonths() + "월");
+		System.out.println("일 차이 : " + p.getDays() + "일");
+	}
+
+}

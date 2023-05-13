@@ -1,0 +1,13 @@
+
+public class my2_string2 {
+
+	public static void main(String[] args) {
+		
+		String str1="good python program";
+		String str2=str1.substring(5);
+		System.out.println("5번째 이후 문자열="+str2);
+		String str3=str1.replaceAll("python", "JAVA");
+
+	}
+
+}

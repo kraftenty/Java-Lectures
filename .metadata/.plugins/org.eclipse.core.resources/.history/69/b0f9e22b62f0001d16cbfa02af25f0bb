@@ -1,0 +1,10 @@
+
+public class my2_string5 {
+
+	public static void main(String[] args) {
+		
+		String join1 = String.join(",", "아메리카노","카페라떼","카페모카");
+		System.out.println("결과====>"+join1);
+	}
+
+}

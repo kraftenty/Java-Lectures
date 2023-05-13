@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;javaproject_1/src/week5&apos;&#x0A;- Original project: &apos;Lecture5&apos;&#x0A;- Destination element: &apos;javaproject_1/src/week5&apos;&#x0A;- Original elements:&#x0A;     mymsg_classsample.java&#x0A;     mymsg_capsul.java&#x0A;     mymsg_arraysample.java&#x0A;     mymsg_classobjectsample.java&#x0A;     Car_실습.java" description="Copy compilation units" destination="=javaproject_1/src&lt;week5" element1="/src&lt;{mymsg_classsample.java" element2="/src&lt;{mymsg_capsul.java" element3="/src&lt;{mymsg_arraysample.java" element4="/src&lt;{mymsg_classobjectsample.java" element5="/src&lt;{Car_실습.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1680243814318" units="5" version="1.0"/>
+</session>

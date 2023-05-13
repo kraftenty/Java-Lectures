@@ -1,0 +1,15 @@
+import java.util.StringJoiner;
+
+public class my2_string4 {
+
+	public static void main(String[] args) {
+		
+		StringJoiner sj = new StringJoiner("/","(",")"); // delimiter, prefix, suffix
+		sj.add("사과");
+		sj.add("복숭아");
+		sj.add("딸기");
+		String result = sj.toString();
+		System.out.println("결과====>"+result);
+	}
+
+}
